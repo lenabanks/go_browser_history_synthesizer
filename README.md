@@ -31,6 +31,6 @@
   - OPTIONAL: Docker (I am working on a build system for this)  
 
 ### Configuration:
-  Minimal configuration is required for this project, just download the dependencies (as stated above) and go.
+  Minimal configuration is required for this project, just download the dependencies (as stated above) and go run main.go.
   
   All of the configuration for runtime variables is, at this time, compiled in for simplicity. This will change in time.

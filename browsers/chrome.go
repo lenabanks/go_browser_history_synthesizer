@@ -16,7 +16,7 @@ import (
 
 //-- Constants ---------------------------------------------------------------------------------------------------------
 var (
-	CHROME_DEFAULT_PROFILE   = `Profile 1`
+	CHROME_DEFAULT_PROFILE   = `Default`
 	CHROME_LINUX_DATA_PATH   = fmt.Sprintf(`%s/.config/google-chrome/%s/`, os.Getenv(`HOME`), CHROME_DEFAULT_PROFILE)
 	CHROME_DARWIN_DATA_PATH  = fmt.Sprintf(`%s/Library/Application Support/Google/Chrome/%s/`, os.Getenv(`HOME`), CHROME_DEFAULT_PROFILE)
 	CHROME_WINDOWS_DATA_PATH = fmt.Sprintf(`%s\Google\Chrome\%s\`, os.Getenv(`LOCALAPPDATA`), CHROME_DEFAULT_PROFILE)

@@ -3,12 +3,13 @@ package main
 
 //-- Imports -----------------------------------------------------------------------------------------------------------
 import (
-	"github.com/JustonDavies/go_activity_synthesizer/src/browsers"
-	"github.com/JustonDavies/go_activity_synthesizer/src/conf"
-	"github.com/cheggaaa/pb"
 	"log"
 	"math/rand"
 	"time"
+
+	"github.com/JustonDavies/go_activity_synthesizer/browsers"
+	"github.com/JustonDavies/go_activity_synthesizer/conf"
+	"github.com/cheggaaa/pb"
 )
 
 //-- Constants ---------------------------------------------------------------------------------------------------------
