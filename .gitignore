@@ -1,0 +1,21 @@
+# Git
+!.gitignore
+
+# Jetbrains
+/.idea
+!/.idea/runConfigurations/*
+
+# Ignore all scratch/ignore_me file
+.ignored
+
+#go dep integration
+vendor/
+
+# Secrets
+secrets/
+
+# Temporary files
+tmp/
+
+# Go compiled output directory
+bin
